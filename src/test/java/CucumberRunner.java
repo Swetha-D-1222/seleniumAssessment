@@ -5,7 +5,7 @@ import org.junit.runner.RunWith;
 @RunWith(Cucumber.class)
 @CucumberOptions(features = {"src/test/resources/features"},
         glue = {"org.example"},
-        monochrome = true, tags = "positive",
+        monochrome = true, tags = "@positive",
         plugin = {"pretty"
         })
 public class CucumberRunner
